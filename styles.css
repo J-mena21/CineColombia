@@ -1,0 +1,360 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    display: flex;
+}
+
+.Background-pic {
+    position: absolute;
+    width: 100%;
+    opacity: 10%;
+    z-index: 1;
+    height: 100%
+}
+
+.main-header {
+    width: 73%;
+    height: 200px;
+    position: relative;
+    left: 13%;
+    z-index: 1;
+}
+.main-div {
+    display: flex;
+    justify-content: space-around;
+    background: linear-gradient(to bottom, #696969,#2f2f2f);
+    padding: 15px 10px;
+    height: 45px;
+    font-family: sans-serif;
+    box-shadow: 0px 0px 20px 13px #ccc;
+}
+
+
+.fecha, .location, .desplegable, .menuright {
+    display: inline;
+    width: 25%;
+    height: 80px;
+    
+}
+
+.fecha {
+    font-size: 15px;
+    color: lightgray;
+}
+
+.location {
+    font-size: 15px;
+    color: white;
+}
+
+.city {
+    color: yellow;
+}
+
+#select {
+    color: gray;
+    height: 20px;
+    border: none;
+    border-radius: 5px;
+    position: relative;
+    bottom: 2px;
+    right: 40%;
+}
+
+.menuright {
+    text-align: right;
+    font-size: 17px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.reg, .ing {
+    color: lightgray;
+    display: inline;
+    width: 10%;
+    padding: 0 10px;
+}
+
+.main-div_2 {
+    display: flex;
+    color: #fff;
+    margin-top: 1px;
+    background-color: #132454;
+    height: 111px;
+}
+
+
+.logo1 {
+    margin: 15px 15px;
+    width: 100px;
+    height: 85px;
+    cursor: pointer;
+}
+
+.home {
+    margin-top: 35px ;
+    width: 5%;
+    height: 35px;
+    cursor: pointer;
+}
+
+.main-nav  {
+    display: flex;
+    align-items: center;
+}
+
+.main-nav_ul {
+    display: flex;
+    list-style: none;
+}
+
+.main-nav li {
+    align-items: center;
+    display: inline;
+    font-size: 15px;
+    font-family: monospace;
+    color: white;
+    padding: 8px 8px;
+}
+
+li:hover {
+    border-radius: 5px;
+    background-color: yellow;
+}
+
+li:hover {
+    color: black;
+}
+
+.alttvo {
+    background-color: green;
+    border-radius: 5px;
+}
+
+
+.menuder {
+    width: 12%;
+    height: 100px;
+    margin-top: 4px;
+    margin-left: 50px;
+    background-color: #bebebe;
+    display: flex;    
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.menuder h1, h2 {
+    display: inline;
+    font-family: monospace;
+    color: #003366;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+.bttn1 {
+    width: 95%;
+    font-size: 13px;
+    border-radius: 5px;
+    border: none;
+    margin: 3px;
+    font-family: Helvetica;
+    font-weight: bold;
+    background: linear-gradient(to bottom, #f7de02, #f5a645);
+    cursor: pointer;
+}
+
+.bttn1:hover {
+    background: linear-gradient(#E0E0E0, #959595);
+}
+
+.bttn2  {
+    width: 95%;
+    font-size: 13px;
+    margin: 3px;
+    border-radius: 5px;
+    border: none;
+    font-family: Helvetica;
+    font-weight: bold;
+    color: white;
+    background: linear-gradient(to bottom, #ff230a, #f80103);
+    cursor: pointer;
+}
+
+.bttn2:hover {
+    background: linear-gradient(#E0E0E0, #959595);
+    color: black;
+}
+
+.main-div_3 {
+    width: 102%;
+    display: flex;
+    color: #fff;
+    height: 61px;  
+    position: relative;
+    right: 9px;
+    
+}
+
+.menu1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(To right, #081831, #172e50, #274672);
+    width: 40%;
+}
+ .findmovies {
+     font-size: 14px;
+     font-family: Arial, Helvetica, sans-serif;
+ }
+
+ .menu2 {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    background: linear-gradient(To bottom, #ececec, #cdcdcd)
+ }
+
+ .menu2 h2 {
+     font-size: 13px;
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+ }
+
+ .menu2 select {
+     width: 30%;
+     height: 30px;
+     border: none;
+     border-radius: 5px;
+ }
+
+ .triangle {
+    width: 0;
+    height: 2px;
+    border-left: 10px solid #333333;
+    border-top: 0px solid transparent;
+    border-bottom: 11px solid transparent;
+    position: relative;
+    left: 1095px;
+}
+ 
+.triangle1 {
+    width: 0;
+    height: 2px;
+    border-right: 10px solid #333333;
+    border-top: 0px solid transparent;
+    border-bottom: 11px solid transparent;
+    position: relative;
+    right: 9px;
+    bottom: 12px;
+}
+
+.main-section_img {
+    position: absolute;
+    height: 970px;
+    margin: 219px 0 0 -900px;
+    width: 73%;
+    z-index: 2;
+    box-shadow: 0px 0px 5px 0px #ccc;
+}
+
+.main-section_2 {
+    width: 73%;
+    position: absolute;
+    margin: 1190px 0 0px 195px;
+    z-index: 2;
+    box-shadow: 0px 0px 15px 0px #ccc;
+}
+
+.titles h1 {
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    color: #0a0a63;
+    width: 100%;
+    justify-content: center;
+    margin-top: 85px;
+}
+
+.titles h2 {
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    color: #0a0a64;
+    width: 75%;
+    justify-content: center;
+    margin: 10px 140px;
+    border-bottom: solid;
+    align-items: center;
+}
+
+.paragraphs {
+    display: inline;
+    width: 75%;
+    text-align: justify;
+}
+.p1, .p2, .p3 {
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    color: black;
+    width: 75%;
+    margin: 60px 0 -25px 145px;
+}
+
+
+.p4 {
+    display: flex;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    color: black;
+    width: 75%;
+    margin: 70px 0 0 145px;
+}
+
+.logodown {
+    display: flex;
+    justify-content: center;
+    margin: 70px 0 60px 145px;
+    width: 73%;
+}
+
+footer {
+    position: absolute;
+    width: 73%;
+    height: 250px;
+    background-color: #0093d5;
+    margin: 2123px 0px 0px 195px;
+    border-radius: 15px;
+}
+
+.p-footer {
+    display: inline;
+    width: 80%;
+    font-size: 30px;
+}
+
+.pf1, .pf2 {
+    padding: 15px 0px 15px 0px;
+    text-align: center;
+}
+
+.lastdiv {
+    display: inline;
+    margin-left: 330px;
+}
+.url :hover {
+    cursor: pointer;
+    color: yellow;
+}
+
+
